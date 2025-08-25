@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noirblanco</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.cdnfonts.com/css/echelon" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container_header">
+    <nav>
+      <div class="navbar_con">
+     
+        <div class="nav_logo">
+          <img src="src/image.png" alt="Logo">
+        </div>
+
+        <div class="lists">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Content</a></li>
+          </ul>
+        </div>
+
+   
+        <div class="bookc">
+          <a href="#">BOOK A CALL →</a>
+        </div>
+
+
+        <div class="hamburger" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+    <div class="sidebar" id="sidebar">
+    <span class="close-btn" onclick="toggleSidebar()">&times;</span>
+    <a href="#">Case Studies</a>
+    <a href="#">Blog</a>
+    <a href="#">Content</a>
+    <a href="#">BOOK A CALL</a>
+  </div>
+
+  <div class="carusal_container">
+    <div class="carusal_det">
+      <p class="tophead">Shopify SEO That Builds Brands and Boosts Sales</p>
+      <h1>Your Search For An ECommerce Google Ads Agency Ends Here</h1>
+      <p class="subtext">
+        At NOIR & BLANCO, our Shopify SEO boosts rankings, visibility, and sales with transparent, data-driven strategies designed for long-term growth.
+      </p>
+      <a href="#" class="cta_btn">Book a Call →</a>
+    </div>
+  </div>
+
+<div class="brand_container">
+  <p class="brand_title">Trusted by 20+ Brands:</p>
+  <div class="brands">
+    <div class="brand_col"><img src="src/lo1.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo2.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo3.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo4.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo5.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo1.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo2.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo3.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo4.png" alt=""></div>
+    <div class="brand_col"><img src="src/lo5.png" alt=""></div>
+  </div>
+</div>
+
+  
+
+
+
+<div class="works_containers">
+  <div class="work">
+    <div class="upphead">
+        <h2>How We Work With SEO Clients</h2>
+        <p>Our proven 4-step SEO process delivers higher rankings, more traffic, and sustainable growth for your business.</p>
+      </div>
+      <div class="works_card">
+
+        <div class="cards">
+          <p class="numberss">01</p>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <p class="card-title">SEO Audit & Strategy</p>
+          <p class="card-desc"> We begin with a complete SEO audit, keyword research, and competitor analysis to create a tailored strategy for your website.</p>
+          <p class="card-time">Week 1–2</p>
+        </div>
+
+        <div class="cards">
+          <p class="numberss">02</p>
+          <i class="fa-solid fa-gears"></i>
+          <p class="card-title"> On-Page SEO & Content Creation</p>
+          <p class="card-desc"> We optimize your website’s structure, pages, and metadata while creating SEO-friendly content that drives visibility and engagement.</p>
+          <p class="card-time">Week 2–3</p>
+        </div>
+
+        <div class="cards">
+          <p class="numberss">03</p>
+          <i class="fa-solid fa-link"></i>
+          <p class="card-title">Backlinks & Blog Posts</p>
+          <p class="card-desc"> We build high-quality backlinks, publish blogs, and enhance authority to improve rankings and organic reach.</p>
+          <p class="card-time">Month 1–2</p>
+        </div>
+
+        <div class="cards">
+          <p class="numberss">04</p>
+          <i class="fa-solid fa-chart-line"></i>
+          <p class="card-title"> Optimize, Grow & Reporting</p>
+          <p class="card-desc"> Our team continuously monitors performance, optimizes campaigns, and provides transparent reports to ensure long-term growth.</p>
+          <p class="card-time">Ongoing</p>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+<div  class="results_section">
+  <p class="nh">Need Proof? See Our Case Studies</p>
+  <div class="results_container">
+    <div class="result_box">
+      <i class="fas fa-search"></i>
+      <h2>+4,604</h2>
+      <p>Organic Traffic </p>
+    </div>
+    <div class="result_box">
+      <i class="fas fa-trophy"></i>
+      <h2>+161</h2>
+      <p>Revenue</p>
+    </div>
+    <div class="result_box">
+      <i class="fas fa-award"></i>
+      <h2>+706</h2>
+      <p> Total Keywords Rank </p>
+    </div>
+  </div>
+</div>
+
+  <div class="review_container">
+    
+    <div class="up">
+      <h2>And here's what they're saying....</h2>
+      <div>
+        <button class="arrow" onclick="scrollReviews(-1)">&#10094;</button>
+        <button class="arrow" onclick="scrollReviews(1)">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="review_wrapper" id="reviewScroll">
+      <div class="review_card">
+        <i class="fa-regular fa-circle-user"></i>
+        <p class="personname">HELLO</p>
+        <p class="review_desc">"We’ve seen amazing growth in organic traffic and consistent sales of 1 Lakh+ through Google. Within just 3 months, our revenue started increasing, and we now rank for all the right keywords that drive results. The NOIR & BLANCO team’s Shopify SEO strategy not only boosted our rankings but also helped us optimize product pages, which tripled our conversion rate."</p>
+      </div>
+
+      <div class="review_card">
+        <i class="fa-regular fa-circle-user"></i>
+        <p class="personname">Lucky harvey</p>
+        <p class="review_desc">As a local jeweller in Malad, Mumbai, our goal was to rank for jewellery-related terms locally and grow our brand visibility across India. NOIR & BLANCO helped us achieve consistent traffic, visibility on maps, and thousands of sessions without relying on paid ads. I now completely rely on their SEO expertise—highly recommended.</p>
+      </div>
+
+      <div class="review_card">
+        <i class="fa-regular fa-circle-user"></i>
+        <p class="personname">Rupesh</p>
+        <p class="review_desc">
+          NOIR & BLANCO transformed our brand visibility and helped us reach the right audience 24/7. We now see consistent sales—2-3 luxury watches every month—even in months when paid ads brought zero results. Their Shopify SEO strategy delivers real growth without relying on ads.
+</p>
+      </div>
+
+         <div class="review_card">
+        <i class="fa-regular fa-circle-user"></i>
+        <p class="personname">Yellowverandah </p>
+        <p class="review_desc">
+As a busy entrepreneur and creative at Yellow Verandah in Hyderabad, I wanted to grow my Shopify store across India. I had no idea about SEO—I just shared my site and business details with NOIR & BLANCO, and they built a complete strategy. Now, I get 4K+ visitors, consistent organic revenue, and I don’t even need to worry about SEO anymore. Their trust, support, and execution make them true business partners.    </p>
+      </div>
+
+      <div class="review_card">
+        <i class="fa-regular fa-circle-user"></i>
+        <p class="personname">Flamingo  </p>
+        <p class="review_desc">As a woman entrepreneur at Flamingo Life, I knew paid ads alone couldn’t grow my luxury furniture brand. The NOIR & BLANCO team managed everything—technical fixes, keywords, and content. Within months, I saw amazing results, with 1000+ free visitors and consistent sales every month. Highly recommended!  </p>
+    </div>
+
+         <div class="review_card">
+        <i class="fa-regular fa-circle-user"></i>
+        <p class="personname">Pure Bubbles  </p>
+        <p class="review_desc">
+As the founder of Pure Bubbles in Mumbai, I was struggling with rankings and organic revenue. The NOIR & BLANCO team quickly fixed everything—on-page, off-page, and technical. Within 2 months, my rankings and sales were back. Now on a monthly retainer, I’m seeing amazing growth with full transparency and great support."    </p>
+    </div>
+    </div>
+    
+  </div>
+
+
+<div class="faq_container">
+  <div class="faq_con">
+    <h2>FAQ's</h2>
+    <div class="faqcon">
+
+      <div class="faq_d">
+        <div class="ques">
+          <p>1. Does Shopify really need SEO if it already has apps and built-in tools?</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <p class="ans">
+          Yes. While Shopify is SEO-friendly, it doesn’t guarantee rankings. Apps only cover basics like titles or redirects. Real growth comes from a strategy that covers technical SEO, keyword research, content, and backlinks — things apps can’t do for you.
+        </p>
+      </div>
+
+      <div class="faq_d">
+        <div class="ques">
+          <p>2. How long does it take to see results from Shopify SEO?</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <p class="ans">
+    SEO is not instant like ads. On average, businesses start seeing visible improvements in 2–3 months, with strong, consistent growth around 4–6 months. The good part is results are long-lasting and don’t vanish when you stop spending, unlike ads.  </p>
+      </div>
+
+      <div class="faq_d">
+        <div class="ques">
+          <p>3. Why not just run ads instead of investing in SEO?</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <p class="ans">
+      Ads bring short-term traffic but stop the moment you pause the budget. SEO builds a 24/7 traffic source that consistently brings customers without ongoing ad spend. Many Shopify store owners use SEO to reduce dependency on ads and improve ROI.
+ </p>
+      </div>
+
+       <div class="faq_d">
+        <div class="ques">
+          <p>4. Is Shopify SEO different from SEO for other platforms?</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <p class="ans">
+Yes, slightly. Shopify has some limitations (like duplicate content issues and URL structure). A strong Shopify SEO strategy focuses on optimizing product pages and collection pages for revenue growth, while also using blogs to build website authority and generate top-of-the-funnel traffic. </p>
+      </div>
+
+         <div class="faq_d">
+        <div class="ques">
+          <p>5. How do I know if Shopify SEO is actually working for my store?</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="ans">
+          <p>With proper SEO, you’ll see steady improvements in:</p>
+            <ul style="list-style-type: disc; padding-left: 20px;">
+            <li>Keyword rankings (appearing higher in search results)</li>
+             <li>Organic traffic (more visitors without ads)</li>
+              <li>Conversions & sales (not just traffic, but revenue growth)
+                Transparent reporting and regular updates ensure you clearly see progress.</li>
+              
+          </ul>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="value_container">
+  <div class="values_con">
+    <div class="val">
+     
+      <div class="val_de">
+        <p class="headline">📞 Book Your Free SEO Strategy Call</p>
+        <p class="subheadline">✨ What We Value & Guarantee</p>
+        <ul class="value_list">
+            <li>✔ 100% Client Satisfaction</li>
+          <li>✔ Return on Investment</li>
+          <li>✔ Shopify & E-Commerce Expertise</li>
+          <li>✔ Proven SEO Strategies</li>
+          <li>✔ Experienced SEO Team</li>
+          <li>✔ Consistent Results</li>
+        </ul>
+      </div>
+
+      <div class="brn_imgs">
+        <img src="src/NOIR & BLANCO.jpg" alt="NOIR & BLANCO Preview">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById("sidebar").classList.toggle("active");
+    }
+
+            function scrollReviews(direction) {
+      const container = document.getElementById('reviewScroll');
+      const cardWidth = container.querySelector('.review_card').offsetWidth + 20; // card + gap
+      container.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+    }
+
+     setInterval(() => {
+      scrollReviews(2);
+    }, 4000);
+
+    
+  document.querySelectorAll(".faq_d").forEach(faq => {
+    faq.querySelector(".ques").addEventListener("click", () => {
+      faq.classList.toggle("active");
+    });
+  });
+
+  </script>
